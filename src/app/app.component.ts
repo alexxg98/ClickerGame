@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { ClickerComponent } from './clicker.component'
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Simple Clicker Game';
+  Points = 0;
+
+  pointsHandler(points: number) {
+    this.Points = points;
+  }
 }

@@ -1,0 +1,13 @@
+button{
+  font-size: 2em;
+  padding: 1em;
+  color: purple;
+}
+div{
+  text-align: center;
+}
+
+.pts{
+  margin-top: 2em;
+  font-size: 1.5em;
+}

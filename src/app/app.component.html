@@ -1,1 +1,5 @@
 <h1>{{title}}</h1>
+<div class="dashboard">
+  Points: {{Points}}
+</div>
+<app-clicker [points]=Points (newPoints)="pointsHandler($event)"></app-clicker>
