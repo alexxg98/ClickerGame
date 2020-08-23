@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter  } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter  } from '@angular/core';
 
 @Component({
   selector: 'app-clicker',
@@ -12,9 +12,9 @@ export class ClickerComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  @Input points: number;
+  @Input() points: number;
 
-  @Output newPoints: EventEmitter<number> = new EventEmitter();
+  @Output() newPoints: EventEmitter<number> = new EventEmitter();
 
   increment() {
     this.points++;
