@@ -1,4 +1,6 @@
-# ClickerGame
+# Clicker Game
+
+This is a simple clicker game built, with the purpose of learning Angular.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
